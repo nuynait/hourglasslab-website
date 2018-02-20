@@ -122,3 +122,57 @@ div.product-hourglass {
     opacity: 0.5;
 }
 
+div.subscribe {
+    background-color: #f8f8f8;
+    height: 30vw;
+    position: relative;
+}
+
+div.subscribe-title {
+    color: #2d3142;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 4vw;
+
+    position: absolute;
+    margin-top: 2vw;
+    width: 100%;
+}
+
+div.subscribe-subtitle {
+    color: #2d3142;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+    margin-top: 1vw;
+}
+
+input.subscribe-form {
+    min-width: 80px;
+    min-height: 25px;
+    max-height: 43px;
+    width: 60vw;
+    height: 5vw;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vw;
+}
+
+.btn-primary {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+
+.btn-primary:hover {
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+
+button.subscribe-button {
+    margin-top: 0.5vw;
+}
