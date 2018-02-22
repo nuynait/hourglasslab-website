@@ -20,10 +20,10 @@ img.header-logo {
 }
 
 div.header-title {
-    color: #2d3142;
+    color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
-    font-size: 6vw;
+    font-size: 6.5vw;
     text-align: center;
     text-shadow: 2px 2px 2px #000;
 
@@ -150,11 +150,9 @@ div.subscribe-subtitle {
 }
 
 input.subscribe-form {
-    min-width: 80px;
     min-height: 25px;
-    max-height: 43px;
     width: 60vw;
-    height: 5vw;
+    height: 4vw;
 
     margin-left: auto;
     margin-right: auto;
@@ -175,4 +173,94 @@ input.subscribe-form {
 
 button.subscribe-button {
     margin-top: 0.5vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1vw;
+}
+
+div.info {
+    background-color: #ffffff;
+    padding-top: 6vw;
+    padding-bottom: 3vw;
+    height: 40vw;
+
+    position: relative;
+}
+
+span.info-title {
+    color: #2d3142;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 3vw;
+}
+
+div.info-inner-col {
+    display: inline-block;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+ul.info-ul {
+    list-style-type: none;
+    margin-top: 1vw;
+    margin-left: 0;
+    padding-left: 0;
+
+    color: #2d3142;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+}
+
+li.info-li {
+    margin-top: 0.5vw;
+}
+
+div.copyright {
+    color: #2d3142;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 500px) {
+    div.subscribe {
+        height: 140px;
+    }
+    button.subscribe-button {
+        margin-top: 5px;
+        font-size: 80%;
+    }
+
+    span.info-title {
+        font-size: 16px;
+    }
+
+    ul.info-ul {
+        font-size: 12px;
+    }
+
+    div.copyright {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 330px) {
+    div.subscribe {
+        height: 120px;
+    }
+
+    span.info-title {
+        font-size: 14px;
+    }
+
+    ul.info-ul {
+        font-size: 10px;
+    }
+
 }
