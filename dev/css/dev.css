@@ -104,6 +104,7 @@ img.email {
 .copyright-text {
     color: #FFFFFF;
     font-size: 14px;
-    font-style: 400;
+    font-style: 300;
     text-align: center;
+    padding-top: 10px;
 }
