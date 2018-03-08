@@ -9,6 +9,7 @@
 
         <!-- My Css -->
         <link rel="stylesheet" href="./css/questit.css">
+        <link rel="stylesheet" href="../css/aos.css">
 
         <title>QuestIt - A productivity app, a time tracking app, a game, and a diary!</title>
     </head>
@@ -39,7 +40,9 @@
                     after you finished each task so that you can use them to
                     earn your time to play.
                 </div>
-                <a href="http://hourglasslab.com/dev"><img class="img-youtube" src="./img/questit-youtube.png"></a>
+                <div data-aos="fade-up">
+                    <a href="http://hourglasslab.com/dev"><img class="img-youtube" src="./img/questit-youtube.png"></a>
+                </div>
             </div>
         </div>
 
@@ -54,7 +57,9 @@
                     “Diamonds” and “Mana” and open the chests to try your luck.
                 </div>
             </div>
-            <img class="img-questit-timer" src="./img/quest-timer.png">
+            <div data-aos="fade-up">
+                <img class="img-questit-timer" src="./img/quest-timer.png">
+            </div>
         </div>
 
         <div class="ticket-bg">
@@ -69,7 +74,9 @@
                     QuestIt to make sure you won’t waste time on that.
                 </div>
             </div>
-            <img class="img-ticket" src="./img/ticket.png">
+            <div data-aos="fade-up">
+                <img class="img-ticket" src="./img/ticket.png">
+            </div>
         </div>
 
         <div class="log-bg">
@@ -81,7 +88,9 @@
                     Since your everyday activity include working and playing, QuestIt keeps all your time entry inside the log. You can come back to app choose a date to view what you did and how long it took. 
                 </div>
             </div>
-            <img class="img-log" src="./img/log.png">
+            <div data-aos="fade-up">
+                <img class="img-log" src="./img/log.png">
+            </div>
         </div>
 
         <div class="download-bg">
@@ -128,11 +137,11 @@
                     </div>
                 </div>
                 <a href="http://hourglasslab.com/dev">
-                <div class="questit-btn-group dev-btn-group">
-                    <div class="questit-btn-text">
-                        Visit Dev Board
+                    <div class="questit-btn-group dev-btn-group">
+                        <div class="questit-btn-text">
+                            Visit Dev Board
+                        </div>
                     </div>
-                </div>
                 </a>
             </div>
         </div>
@@ -184,5 +193,11 @@
             </div>
         </div>
 
+        <script src="../js/aos.js"></script>
+        <script>
+         AOS.init({
+             duration: 1000,
+         });
+        </script>
     </body>
 </html>
