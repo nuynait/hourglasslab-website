@@ -1,18 +1,21 @@
+body {
+    margin: 0;
+    /* set default font stack globally */
+    /* overwrite where needed */
+    font-family: 'Open Sans', sans-serif;
+}
+
 div.header-bg {
     background-image: url('../img/header-background.png');
     background-position: center center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 0;
-    padding: 0;
-
-    position: relative;
-    padding-bottom: 69%;
+    background-size: cover;
+    width: 100%;
+    height: 692px;
 }
 
 img.header-logo {
-    height: 11.94vw;
-    width: 8vw;
+    width: 67px;
+    height: 100px;
 
     margin-left: auto;
     margin-right: auto;
@@ -20,63 +23,58 @@ img.header-logo {
 }
 
 div.header-title {
-    color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
+    color: #fff;
     font-weight: 800;
-    font-size: 6.5vw;
+    font-size: 64px;
     text-align: center;
     text-shadow: 2px 2px 2px #000;
 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 30%;
-    width: 50%;
-    margin: -15% 0 0 -25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 173px;
 }
 
 div.header-slogan {
     color: #d34746;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size: 2.5vw;
+    font-size: 24px;
     text-align: center;
     position: absolute;
-    bottom: 6vw;
+    margin-top: 169px;
     width: 100%;
 }
 
 img.header-slogan-heart {
-    width: 3vw;
-    height: 2.76vw;
+    width: 37px;
+    height: 34px;
 
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2vw;
+    margin-top: 22px;
     display: block;
 }
 
 div.product {
     width: 100%;
-
     position: relative;
 }
 
 div.product-questit {
     background-color: #f8f8f8;
-    margin-top: -1vw;
-    height: 40vw;
+    margin-top: -1px;
+    height: 539px;
 }
 
 div.product-title {
     position: absolute;
-    top: 6vw;
+    top: 90px;
     width: 100%;
 }
 
 img.product-logo {
-    width: 12vw;
-    height: 12vw;
+    width: 152px;
+    height: 152px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -84,183 +82,111 @@ img.product-logo {
 
 div.product-name {
     color: #2d3142;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     text-align: center;
-    font-size: 4vw;
-    margin-top: 1vw;
+    font-size: 48px;
+    margin-top: 17px;
 }
 
 div.product-version {
     color: #d34746;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 2vw;
+    font-size: 18px;
 }
 
 div.product-questit-slogan-1 {
     color: #2d3142;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 2vw;
-    margin-top: 2vw;
+    font-size: 24px;
+    margin-top: 40px;
 }
 
 div.product-questit-slogan-2 {
     color: #9b9b9b;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    font-size: 1.5vw;
+    font-size: 18px;
 }
 
 div.product-hourglass {
-    background-color: #ffffff;
-    height: 35vw;
+    background-color: #fff;
+    height: 444px;
     opacity: 0.5;
 }
 
 div.subscribe {
     background-color: #f8f8f8;
-    height: 30vw;
+    height: 299px;
     position: relative;
 }
 
 div.subscribe-title {
     color: #2d3142;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size: 4vw;
+    font-size: 36px;
 
     position: absolute;
-    margin-top: 2vw;
+    margin-top: 33px;
     width: 100%;
 }
 
 div.subscribe-subtitle {
     color: #2d3142;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size: 2vw;
-    margin-top: 1vw;
+    font-size: 24px;
+    margin-top: 12px;
 }
 
 input.subscribe-form {
-    min-height: 25px;
-    width: 60vw;
-    height: 4vw;
-
+    display: block;
+    width: 540px;
+    height: 43px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5vw;
+    margin-top: 31px;
+    font-size: 18px;
+    color: #495057;
+    text-indent: 10px;
 }
 
 .btn-primary {
-    padding-left: 4vw;
-    padding-right: 4vw;
+    width: 154px;
+    height: 43px;
     background-color: #428bca;
-    border-color: #357ebd;
-}
-
-.btn-primary:hover {
-    background-color: #428bca;
-    border-color: #357ebd;
+    /* border-color: #357ebd; */
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
 }
 
 button.subscribe-button {
-    margin-top: 0.5vw;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    line-height: 1vw;
+    margin-top: 22px;
 }
 
-div.info {
-    background-color: #ffffff;
-    padding-top: 6vw;
-    padding-bottom: 3vw;
-    height: 40vw;
-
-    position: relative;
+.footer-bg {
+    background-color: #fff;
 }
 
-span.info-title {
-    color: #2d3142;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 3vw;
+.footer-col-title {
+    color: #2D3142;
 }
 
-div.info-inner-col {
-    display: inline-block;
-
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%)
+.footer-col-li {
+    color: #2D3142;
 }
 
-ul.info-ul {
-    list-style-type: none;
-    margin-top: 1vw;
-    margin-left: 0;
-    padding-left: 0;
-
-    color: #2d3142;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 2vw;
-}
-
-li.info-li {
-    margin-top: 0.5vw;
-}
-
-div.copyright {
+.copyright {
     color: #2d3142;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 1.5vw;
     padding-top: 10px;
     padding-bottom: 10px;
-}
-
-@media (max-width: 500px) {
-    div.subscribe {
-        height: 140px;
-    }
-    button.subscribe-button {
-        margin-top: 5px;
-        font-size: 80%;
-    }
-
-    span.info-title {
-        font-size: 16px;
-    }
-
-    ul.info-ul {
-        font-size: 12px;
-    }
-
-    div.copyright {
-        font-size: 10px;
-    }
-}
-
-@media (max-width: 330px) {
-    div.subscribe {
-        height: 120px;
-    }
-
-    span.info-title {
-        font-size: 14px;
-    }
-
-    ul.info-ul {
-        font-size: 10px;
-    }
-
 }
