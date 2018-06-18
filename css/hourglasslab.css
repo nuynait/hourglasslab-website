@@ -25,7 +25,7 @@ img.header-logo {
 div.header-title {
     color: #fff;
     font-weight: 800;
-    font-size: 64px;
+    font-size: 60px;
     text-align: center;
     text-shadow: 2px 2px 2px #000;
 
@@ -38,7 +38,7 @@ div.header-title {
 div.header-slogan {
     color: #d34746;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     position: absolute;
     margin-top: 169px;
@@ -46,8 +46,8 @@ div.header-slogan {
 }
 
 img.header-slogan-heart {
-    width: 37px;
-    height: 34px;
+    width: 32px;
+    height: 28px;
 
     margin-left: auto;
     margin-right: auto;
@@ -84,7 +84,7 @@ div.product-name {
     color: #2d3142;
     font-weight: 700;
     text-align: center;
-    font-size: 48px;
+    font-size: 44px;
     margin-top: 17px;
 }
 
@@ -92,14 +92,14 @@ div.product-version {
     color: #d34746;
     text-align: center;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 div.product-questit-slogan-1 {
     color: #2d3142;
     text-align: center;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 40px;
 }
 
@@ -107,7 +107,7 @@ div.product-questit-slogan-2 {
     color: #9b9b9b;
     text-align: center;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 div.product-hourglass {
@@ -126,7 +126,7 @@ div.subscribe-title {
     color: #2d3142;
     text-align: center;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 34px;
 
     position: absolute;
     margin-top: 33px;
@@ -137,7 +137,7 @@ div.subscribe-subtitle {
     color: #2d3142;
     text-align: center;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 22px;
     margin-top: 12px;
 }
 
