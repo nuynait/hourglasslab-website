@@ -1,0 +1,676 @@
+.header {
+	width: 100%;
+	position: relative;
+}
+
+.header-img {
+	width: 100%;
+	height: 100%;
+}
+
+.header-title {
+	color: white;
+	left: 0;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	position: absolute;
+}
+
+.header-title span {
+	color: #7986CB;
+}
+
+.header-subtitle {
+	font-family: 'Lato', sans-serif;
+}
+
+.header-subtitle img {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.header-logo {
+	position: absolute;
+	margin-left: 50%;
+	bottom: 10%;
+}
+
+.slogan {
+	width: 100%;
+	position: relative;
+	background-color: #E8EAF6;
+}
+
+.slogan-title {
+	color: #7986CB;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	position: absolute;
+}
+
+.slogan-title span {
+	font-weight: 900;
+}
+
+.slogan-subtitle {
+	margin-left: 10%;
+	width: 80%;
+}
+
+.grid-title {
+	color: #7986CB;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+}
+
+.grid-subtitle {
+	color: #7986CB;
+	font-family: 'Lato', sans-serif;
+}
+
+.more {
+	width: 100%;
+	background-color: #E8EAF6;
+	position: relative;
+	font-family: 'Lato', sans-serif;
+}
+
+.more-title {
+	width: 80%;
+	margin-left: 10%;
+	text-align: center;
+	color: #7986CB;
+	position: absolute;
+}
+
+.more-link {
+	width: 100%;
+	left: 0;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.contact {
+	width: 100%;
+	position: relative;
+}
+
+.contact-title {
+	width: 100%;
+	left: 0;
+	text-align: center;
+	position: absolute;
+	color: #7986CB;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+}
+
+.btn-primary, .btn-primary:visited {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 6px;
+	border-color: #979797 !important;
+	background-color: #7986CB !important;
+}
+
+.btn-primary:focus {
+  	outline: none;
+}
+
+.btn-primary:active:focus {
+	outline: none;
+}
+
+.btn-primary:hover {
+	background-color: #5C6BC0 !important;
+	border-color: #979797 !important;
+}
+
+.btn-primary:active {
+	background-color: #3F51B5 !important;
+	border-color: #979797 !important;
+}
+
+.footer {
+	height: 60px;
+	width: 100%;
+	background-color: black;
+	position: relative;
+}
+
+.footer-copyright {
+	top: 30%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	color: white;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+	.header {
+		height: 350px;
+	}
+	.header-title {
+		font-size: 22px;
+	}
+	.header-subtitle {
+		font-size: 14px;
+		font-weight: 300;
+	}
+	.header-logo img {
+		margin-left: -20px;
+		width: 41px;
+		height: 44px;
+	}
+	
+	.slogan {
+		height: 260px;
+	}
+	.slogan-title {
+		top: 30px;
+		font-size: 26px;
+		font-weight: 300;
+	}
+	.slogan-subtitle {
+		margin-top: 20px;
+		font-size: 12px;
+	}
+	.slogan-download {
+		margin-top: 30px;
+	}
+	.slogan-download img {
+		zoom: 50%
+	}
+	
+	.slogan-download-disable {
+		margin-top: 10px;
+		font-size: 10px;
+		color: #EF5350;
+	}
+	
+	.grid {
+		height: 180px;
+	}
+	
+	.grid img {
+		margin-top: 30px;
+		margin-left: 8px;
+		zoom: 50%;
+	}
+	
+	.grid-title {
+		margin-left: 4px;
+		margin-top: 6px;
+		font-size: 24px;
+	}
+	
+	.grid-subtitle {
+		margin-left: 4px;
+		margin-top: 5px;
+		font-size: 18px;
+		font-weight: 300;
+	}
+	
+	.grip-more {
+		margin-top: 15px !important;
+	}
+	
+	.more {
+		height: 240px;
+		font-weight: 300;
+	}
+
+	.more-title {
+		margin-top: 50px;
+		font-size: 28px;
+	}
+
+	.more-link {
+		margin-top: 40px;
+		font-size: 22px;
+	}
+	
+	.contact {
+		height: 300px;
+	}
+
+	.contact-title {
+		margin-top: 66px;
+		font-size: 32px;
+	}
+
+	.contact-link {
+		margin-top: 41px;
+	}
+	
+	.footer-copyright {
+		font-weight: 300;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	.header {
+		height: 450px;
+	}
+	.header-title {
+		font-size: 38px;
+	}
+	.header-subtitle {
+		font-size: 20px;
+		font-weight: 300;
+	}
+	.header-logo img {
+		margin-left: -20px;
+		width: 41px;
+		height: 44px;
+	}
+	
+	.slogan {
+		height: 320px;
+	}
+	.slogan-title {
+		top: 40px;
+		font-size: 28px;
+		font-weight: 300;
+	}
+	.slogan-subtitle {
+		margin-top: 30px;
+		font-size: 14px;
+	}
+	.slogan-download {
+		margin-top: 40px;
+	}
+	
+	.slogan-download img {
+		zoom: 100%
+	}
+	
+	.slogan-download-disable {
+		margin-top: 10px;
+		font-size: 12px;
+		color: #EF5350;
+	}
+	
+	.grid {
+		height: 260px;
+	}
+	
+	.grid img {
+		margin-top: 20px;
+		margin-left: 26px;
+		zoom: 80%;
+	}
+	
+	.grid-title {
+		margin-left: 18px;
+		margin-top: 18px;
+		font-size: 28px;
+	}
+	
+	.grid-subtitle {
+		margin-left: 18px;
+		margin-top: 30px;
+		font-size: 20px;
+		font-weight: 300;
+	}
+	
+	.grip-more {
+		margin-top: 15px !important;
+	}
+	
+	.more {
+		height: 300px;
+		font-weight: 300;
+	}
+
+	.more-title {
+		margin-top: 50px;
+		font-size: 38px;
+	}
+
+	.more-link {
+		margin-top: 40px;
+		font-size: 28px;
+	}
+	
+	.contact {
+		height: 345px;
+	}
+
+	.contact-title {
+		margin-top: 66px;
+		font-size: 42px;
+	}
+
+	.contact-link {
+		margin-top: 51px;
+	}
+	
+	.footer-copyright {
+		font-weight: 300;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.header {
+		height: 550px;
+	}
+	.header-title {
+		font-size: 48px;
+	}
+	.header-subtitle {
+		font-size: 20px;
+		font-weight: 300;
+	}
+	.header-logo img {
+		margin-left: -25px;
+		width: 51px;
+		height: 54px;
+	}
+	
+	.slogan {
+		height: 360px;
+	}
+	.slogan-title {
+		top: 50px;
+		font-size: 32px;
+		font-weight: 300;
+	}
+	.slogan-subtitle {
+		margin-top: 40px;
+		font-size: 18px;
+	}
+	.slogan-download {
+		margin-top: 40px;
+	}
+	
+	.slogan-download img {
+		zoom: 100%
+	}
+	
+	.slogan-download-disable {
+		margin-top: 10px;
+		font-size: 14px;
+		color: #EF5350;
+	}
+	
+	.grid {
+		height: 300px;
+	}
+	
+	.grid img {
+		margin-top: 50px;
+		margin-left: 42px;
+		zoom: 80%;
+	}
+	
+	.grid-title {
+		margin-left: 40px;
+		margin-top: 18px;
+		font-size: 32px;
+	}
+	
+	.grid-subtitle {
+		margin-left: 40px;
+		margin-top: 28px;
+		font-size: 26px;
+		font-weight: 300;
+	}
+	
+	.grip-more {
+		margin-top: 15px !important;
+	}
+	
+	.more {
+		height: 300px;
+		font-weight: 300;
+	}
+
+	.more-title {
+		margin-top: 50px;
+		font-size: 38px;
+	}
+
+	.more-link {
+		margin-top: 40px;
+		font-size: 28px;
+	}
+	
+	.contact {
+		height: 345px;
+	}
+
+	.contact-title {
+		margin-top: 66px;
+		font-size: 48px;
+	}
+
+	.contact-link {
+		margin-top: 51px;
+	}
+	
+	.footer-copyright {
+		font-weight: 300;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.header {
+		height: 750px;
+	}
+	.header-title {
+		font-size: 52px;
+	}
+	.header-subtitle {
+		font-size: 24px;
+		font-weight: 100;
+	}
+	.header-logo img {
+		margin-left: -30px;
+		width: 61px;
+		height: 64px;
+	}
+	
+	.slogan {
+		height: 460px;
+	}
+	
+	.slogan-title {
+		top: 65px;
+		font-size: 38px;
+		font-weight: 100;
+	}
+	.slogan-subtitle {
+		margin-top: 40px;
+		font-size: 24px;
+	}
+	.slogan-download {
+		margin-top: 60px;
+	}
+	
+	.slogan-download-disable {
+		margin-top: 10px;
+		font-size: 20px;
+		color: #EF5350;
+	}
+	
+	.slogan-download img {
+		zoom: 100%
+	}
+	
+	.grid {
+		height: 360px;
+	}
+	
+	.grid img {
+		margin-top: 50px;
+		margin-left: 50px;
+		zoom: 80%;
+	}
+	
+	.grid-title {
+		margin-left: 44px;
+		margin-top: 18px;
+		font-size: 32px;
+	}
+	
+	.grid-subtitle {
+		margin-left: 44px;
+		margin-top: 40px;
+		font-size: 26px;
+		font-weight: 100;
+	}
+	
+	.grip-more {
+		margin-top: 26px !important;
+	}
+	
+	.more {
+		height: 345px;
+		font-weight: 100;
+	}
+
+	.more-title {
+		margin-top: 66px;
+		font-size: 48px;
+	}
+
+	.more-link {
+		margin-top: 66px;
+		font-size: 36px;
+	}
+	
+	.contact {
+		height: 345px;
+	}
+
+	.contact-title {
+		margin-top: 66px;
+		font-size: 48px;
+	}
+
+	.contact-link {
+		margin-top: 51px;
+	}
+	
+	.footer-copyright {
+		font-weight: 100;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.header {
+		height: 750px;
+	}
+	.header-title {
+		font-size: 52px;
+	}
+	.header-subtitle {
+		font-size: 24px;
+		font-weight: 100;
+	}
+	.header-logo img {
+		margin-left: -30px;
+		width: 61px;
+		height: 64px;
+	}
+
+	.slogan {
+		height: 485px;
+	}
+	.slogan-title {
+		top: 79px;
+		font-size: 43px;
+		font-weight: 100;
+	}
+	.slogan-subtitle {
+		margin-top: 45px;
+		font-size: 27px;
+	}
+	.slogan-download {
+		margin-top: 69px;
+	}
+	
+	.slogan-download-disable {
+		margin-top: 10px;
+		font-size: 20px;
+		color: #EF5350;
+	}
+	
+	.slogan-download img {
+		zoom: 100%
+	}
+	
+	.grid {
+		height: 360px;
+	}
+	
+	.grid img {
+		margin-top: 50px;
+		margin-left: 50px;
+		zoom: 80%;
+	}
+	
+	.grid-title {
+		margin-left: 44px;
+		margin-top: 18px;
+		font-size: 32px;
+	}
+	
+	.grid-subtitle {
+		margin-left: 44px;
+		margin-top: 40px;
+		font-size: 26px;
+		font-weight: 100;
+	}
+
+	.more {
+		height: 345px;
+		font-weight: 100;
+	}
+
+	.more-title {
+		margin-top: 66px;
+		font-size: 48px;
+	}
+
+	.more-link {
+		margin-top: 66px;
+		font-size: 36px;
+	}
+	
+	.contact {
+		height: 345px;
+	}
+
+	.contact-title {
+		margin-top: 66px;
+		font-size: 48px;
+	}
+
+	.contact-link {
+		margin-top: 51px;
+	}
+	
+	.footer-copyright {
+		font-weight: 100;
+	}
+}
